@@ -3,6 +3,12 @@
 Author: Mihai Criveti
 Description: Simple RAG example notebook
 
+## Prereq
+
+1. Install [ollama](https://ollama.com/), ex: `curl -fsSL https://ollama.com/install.sh | sh`
+2. Run ollama, ex: ```
+3. Install and test a model: `ollama run granite3-dense`
+
 ## Usage
 
 ```
