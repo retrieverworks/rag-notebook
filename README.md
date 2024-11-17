@@ -6,13 +6,23 @@ Description: Simple RAG example notebook
 ## Prereq
 
 1. Install [ollama](https://ollama.com/), ex: `curl -fsSL https://ollama.com/install.sh | sh`
-2. Run ollama, ex: ```
+2. Run ollama, ex: `ollama server`
 3. Install and test a model: `ollama run granite3-dense`
 
 ## Usage
 
+Inside a Python venv:
+
 ```
-jupyter lab
+python3 -m venv .venv
+. ./.venv/bin/activate
+python3 -m pip install -r requirements.txt
+```
+
+A simple Jupyter notebook is provided: `simple-rag.ipynb`.
+
+```
+python3 -m jupyter lab
 ```
 
 ## Sample API and UI
